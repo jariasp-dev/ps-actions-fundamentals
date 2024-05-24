@@ -10,9 +10,7 @@ on:
       -main
   schedule:
     - cron: 15 6 * * 0
-permissions: 
-  issues: write
-  contents: read
+
 
 jobs:
   initialize_repo:
