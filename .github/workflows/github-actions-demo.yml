@@ -9,5 +9,20 @@ on:
     branches: 
       -main
   schedule:
-    - cron: "15 6 * * 0"
+    - cron: 15 6 * * 0
+permissions: 
+  issues: write
+  contents: read
+
+jobs:
+  initialize_repo:
+    runs-on: ubuntu-latest
+  
+   
+
+   
+  
+  
+
+  
     
